@@ -1,0 +1,17 @@
+name: Erase_UUID_On_Death
+version: '${project.version}'
+main: me.valdoveste.erase_uuid_on_death.Erase_UUID_On_Death
+api-version: 1.19
+authors: [ Valdoveste ]
+description: This plugin will erase the UUID player when it dies. Request of a friend.
+website: https://valdoveste.com
+commands:
+  eadd:
+    description: Adiciona o jogador informado na lista dos caféComLeite
+    usage: /<command> <player>
+  eremove:
+    description: Remove o jogador informado na lista dos caféComLeite
+    usage: /<command> <player>
+  elist:
+    description: Mostra todos os jogadores presentes na lista dos caféComLeite
+    usage: /<command>
